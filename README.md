@@ -39,10 +39,10 @@ It allows users to create, edit, and delete notes with automatic data persistenc
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/notely.git
+git clone https://github.com/Ishant8287/Notes-App.git
 
 # Navigate to the project folder
-cd notely
+cd Notes-App
 
 # Install dependencies
 npm install
