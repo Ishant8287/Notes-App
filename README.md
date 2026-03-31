@@ -63,14 +63,3 @@ Show Create/Edit Note UI
 ☁️ Integrate backend (Node.js + Express + MongoDB)
 🏷️ Add tags & categories
 🔍 Search and filter notes
-🤝 Contributing
-
-Contributions are welcome! Feel free to fork this repository and submit a pull request.
-
-📬 Contact
-
-If you liked this project or want to collaborate, feel free to connect!
-
-⭐
-
-If you found this project useful, consider giving it a star ⭐ on GitHub!
