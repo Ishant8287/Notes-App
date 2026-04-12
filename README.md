@@ -56,10 +56,10 @@ npm run dev
 ## Screenshots
 
 ### Dark Mode
-![Dark Mode](./screenshots/dark.png)
+![Dark Mode](./screenshots/darkMode.png)
 
 ### Light Mode
-![Light Mode](./screenshots/light.png)
+![Light Mode](./screenshots/lightMode.png)
 
 ---
 
