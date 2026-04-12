@@ -1,65 +1,68 @@
-📝 Notely – Modern Notes App
+# Notely
 
-A sleek, minimal, and responsive notes application built with React and Tailwind CSS, designed for seamless note-taking with smooth user experience and persistent storage.
+A minimal, responsive notes app built with React and Tailwind CSS. Supports dark/light mode, full CRUD, and persistent storage via localStorage.
 
-🔗 Live Demo: https://notes-app-black-alpha.vercel.app/
+🔗 **Live Demo** → https://notes-app-black-alpha.vercel.app/
 
-✨ Overview
+---
 
-Notely is a frontend-focused project that demonstrates clean UI design, efficient state management, and real-world CRUD operations without relying on a backend.
+## Tech Stack
 
-It focuses on performance, simplicity, and usability — making it a strong showcase of modern React development practices.
+| Layer | Technology |
+|---|---|
+| UI | React 19 |
+| Styling | Tailwind CSS v4 |
+| Build Tool | Vite |
+| Storage | localStorage |
 
-🚀 Features
-✍️ Create, edit, and delete notes
-💾 Persistent storage using localStorage
-🌗 Dark / Light mode toggle
-📅 Automatic date tracking for notes
-📱 Fully responsive design
-⚡ Fast and smooth UI interactions
-🛠 Tech Stack
-Technology	Purpose
-React	UI & Component Architecture
-Tailwind CSS	Styling & Responsive Design
-JavaScript (ES6+)	Application Logic
-LocalStorage	Data Persistence (No Backend)
-🧠 Key Learnings
-Mastered React Hooks (useState, useEffect)
-Built clean and scalable CRUD logic
-Implemented client-side data persistence
-Designed responsive UI using Tailwind CSS
-Improved component structuring and reusability
-📂 Project Structure
-Notes-App/
-│── src/
-│   ├── components/
-│   ├── App.jsx
-│   ├── main.jsx
-│── public/
-│── package.json
-⚙️ Installation & Setup
-# Clone the repository
+---
+
+## Features
+
+- Create, edit, and delete notes
+- Dark / Light mode toggle
+- Auto date tracking per note
+- Persistent storage — notes survive page refresh
+- Fully responsive across mobile and desktop
+
+---
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── Header.jsx
+│   ├── NoteForm.jsx
+│   ├── NoteList.jsx
+│   └── NoteCard.jsx
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## Getting Started
+
+```bash
 git clone https://github.com/Ishant8287/Notes-App.git
-
-# Navigate to project directory
 cd Notes-App
-
-# Install dependencies
 npm install
-
-# Start development server
 npm run dev
-📸 Screenshots
+```
 
-Add screenshots here (Highly Recommended)
+---
 
-Tip:
+## Screenshots
 
-Show Light Mode UI
-Show Dark Mode UI
-Show Create/Edit Note UI
-🔥 Future Improvements
-🔐 Add authentication (Login/Signup)
-☁️ Integrate backend (Node.js + Express + MongoDB)
-🏷️ Add tags & categories
-🔍 Search and filter notes
+### Dark Mode
+![Dark Mode](./screenshots/dark.png)
+
+### Light Mode
+![Light Mode](./screenshots/light.png)
+
+---
+
+## License
+
+MIT
