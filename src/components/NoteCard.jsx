@@ -137,7 +137,7 @@ const NoteCard = ({ note, theme, onDelete, onEdit }) => {
       }}
     >
       <div
-        className="absolute inset-y-0 left-0 flex items-center bg-red-500"
+        className="absolute inset-y-0 left-0 flex items-center bg-red-500 z-10"
         style={{ width: deleteButtonWidth }}
       >
         <button
@@ -150,8 +150,8 @@ const NoteCard = ({ note, theme, onDelete, onEdit }) => {
 
       <div
         onClick={handleCardClick}
-        className={`relative border p-6 rounded-2xl transition-transform duration-200 ease-out cursor-pointer
-        ${theme === "dark" ? "bg-zinc-900/40 border-zinc-800 hover:border-zinc-700 shadow-none" : "bg-white border-zinc-200 shadow-sm hover:shadow-md"}`}
+        className={`relative border p-6 rounded-2xl transition-transform duration-200 ease-out cursor-pointer z-0
+        ${theme === "dark" ? "bg-zinc-900 border-zinc-800 hover:border-zinc-700 shadow-none" : "bg-white border-zinc-200 shadow-sm hover:shadow-md"}`}
         style={{ 
           transform: `translateX(${currentTranslateX}px)`,
           userSelect: "none"
